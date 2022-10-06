@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/index.css">
+    <title>各省份酒店数据分析</title>
+    <script src="js/jquery-2.2.1.min.js"></script>
+    <script src="js/rem.js"></script>
+    <script src="js/echarts.min.js"></script>
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <div class="t_container">
+        <header class="t_h_bg">
+            <span>各省份酒店数据分析</span>
+        </header>
+        <main class="t_main">
+            <div class="t_box">
+                <header class="t_title">
+                    <span>四川酒店评论数top</span>
+                    <span class="t_number">10</span>
+                </header>
+                <div id="chart_1" class="echart" style="width: 100%; height: 3rem;"></div>
+            </div>
+            <div class="t_box">
+                <header class="t_title">
+                    <span>各省份酒店总数和占比</span>
+                </header>
+                <div id="chart_2" class="echart" style="width: 100%; height: 3rem;"></div>
+            </div>
+            <div class="t_box">
+                <header class="t_title">
+                    <span>各星级酒店最多房间数、评分、酒店总订单、酒店总间夜对比图</span>
+                </header>
+                <div id="chart_3" class="echart" style="width: 100%; height: 3rem;"></div>
+            </div>
+            <div class="t_box">
+                <div class="main_table t_btn8">
+                    <table>
+                        <thead>
+                        <tr>
+                            <th>酒店名</th>
+                            <th>省份</th>
+                            <th>星级</th>
+                            <th>房间数</th>
+                            <th>评分</th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>九寨天堂洲际大饭店</td>
+                            <td>四川</td>
+                            <td>五星级/豪华</td>
+                            <td>1020</td>
+                            <td>4.56</td>
+                        </tr>
+                        <tr>
+                            <td>长白山万达智选假日酒店</td>
+                            <td>吉林</td>
+                            <td>四星级/高档</td>
+                            <td>1002</td>
+                            <td>4.24</td>
+                        </tr>
+                        <tr>
+                            <td>阿坝香谷·弗舍酒店</td>
+                            <td>四川</td>
+                            <td>三星级/舒适</td>
+                            <td>980</td>
+                            <td>4.29</td>
+                        </tr>
+                        <tr>
+                            <td>九寨天堂甲蕃古城假日酒店</td>
+                            <td>四川</td>
+                            <td>五星级/豪华</td>
+                            <td>606</td>
+                            <td>4.5</td>
+                        </tr>
+                        <tr>
+                            <td>九寨沟天源豪生度假酒店</td>
+                            <td>四川</td>
+                            <td>五星级/豪华</td>
+                            <td>600</td>
+                            <td>4.43</td>
+                        </tr>
+                        <tr>
+                            <td>布尔津县友谊峰大酒店</td>
+                            <td>新疆</td>
+                            <td>四星级/高档</td>
+                            <td>534</td>
+                            <td>4.17</td>
+                        </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
